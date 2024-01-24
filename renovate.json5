@@ -5,6 +5,5 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
     }
-  ],
-  "prConcurrentLimit": 8,
+  ]
 }
