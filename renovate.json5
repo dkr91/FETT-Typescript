@@ -3,7 +3,10 @@
   "extends": ["config:recommended", ":dependencyDashboard"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "webpack",
+      "matchPackagePrefixes": [
+        "webpack"
+      ],
     }
   ]
 }
