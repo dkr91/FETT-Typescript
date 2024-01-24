@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "groupName": "webpack",
-      "matchPackagePrefixes": [
+      "matchPackagePatterns": [
         "webpack"
       ],
     }
