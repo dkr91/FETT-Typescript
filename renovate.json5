@@ -7,6 +7,12 @@
       "matchPackagePatterns": [
         "webpack"
       ],
+    },
+    {
+      "groupName": "actions",
+      "matchPackagePatterns": [
+        "actions/"
+      ],
     }
   ]
 }
