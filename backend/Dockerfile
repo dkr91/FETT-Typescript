@@ -1,4 +1,4 @@
-FROM ghcr.io/mend/renovate-ce:6.7.0@sha256:385f127981ec3601ea829e5671d758c7cfd7552e3defa31699f2d693b008e068
+FROM ghcr.io/mend/renovate-ce:6.11.0@sha256:4cea86822cbc01bd3a7bd92d1f15d89585d77981a196b7c09ab67fb0b0665cd9
 
 USER 0
 ENV HOME=/home/ubuntu
