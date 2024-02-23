@@ -11,5 +11,6 @@
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
     }
   ],
+  "rebase-when": "auto",
   "branchTopic": "{{{depNameSanitized}}}-{{{newMajor}}}{{#if separateMinorPatch}}{{#if isPatch}}_{{{newMinor}}}{{/if}}{{/if}}_x{{#if isLockfileUpdate}}-lockfile{{/if}}"
 }
