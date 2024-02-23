@@ -7,8 +7,8 @@
       "groupName": "webpack",
       "matchPackagePatterns": [
         "webpack"
-      ],
-      "automerge": true
+      ], 
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
     }
   ],
   "branchTopic": "{{{depNameSanitized}}}-{{{newMajor}}}{{#if separateMinorPatch}}{{#if isPatch}}_{{{newMinor}}}{{/if}}{{/if}}_x{{#if isLockfileUpdate}}-lockfile{{/if}}"
